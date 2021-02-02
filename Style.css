@@ -1,0 +1,64 @@
+
+h1 {
+    color: rgb(255, 0, 0);
+    }
+
+  
+
+p,h2 {
+   text-align: center;
+   
+}
+.header{
+   
+    display:flex;
+    justify-content: space-around;
+
+   }
+.site-description{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: first baseline;
+    
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;    
+    
+}
+.item{
+    background-color: rgb(192,192,192);
+    background-color:#c0c0c0;
+    font-family: Verdana;
+    font-size: 20;
+}
+
+.item:hover{
+    color: rgb(208, 255, 0);
+}
+
+.item:hover{
+    font-size: 150%;
+}
+
+.item:hover img{
+    color: teal;
+    opacity: 0.50;
+}
+
+.footer:hover img{
+    color: rgb(255, 0, 0);
+    opacity: 0.50;
+}
+.footer:hover{
+    font-size: 100%;
+}
+
+       
